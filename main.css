@@ -222,7 +222,48 @@ body {
 	padding: 10px;
 	cursor: pointer;
 }
-/**/
+.gnb {
+	/* display: none; */
+	overflow: auot;
+	position: absolute;
+	left: 0;
+	top: -80px;
+	background-color: white;
+	width: 500px;
+	height: 100vh;
+	border-right: 1px solid rgba(207, 207, 207, 0.5);
+	background-color: #524b46;
+	color: white;
+}
+.gnb-item {
+	padding: 40px 0;
+	font-weight: bold;
+	border-bottom: 1px solid gray;
+	padding-left: 40px;
+}
+
+.gnb-item span {
+	float: right;
+	cursor: pointer;
+	padding-right: 40px;
+}
+.gnb-item span i {
+	margin-left: 20px;
+	color: white;
+	vertical-align: middle;
+}
+.gnb-item-in {
+	margin-top: 25px;
+	margin-bottom: -25px;
+	display: none;
+}
+.gnb-item-in-item {
+	padding: 25px;
+	border-bottom: 1px solid gray;
+}
+.gnb-item-in-item:last-of-type {
+	border-bottom: none;
+}
 .main-content {
 	margin: 0 150px 0 100px;
 }
