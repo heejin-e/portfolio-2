@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+.form-input {
+	width: 100%;
+	max-width: 400px;
+	margin: 0 auto;
+}
+strong {
+	font-weight: 600;
+	font-size: 12px;
+	display: inline-block;
+	margin-top: 10px;
+}
+.snb-left,
+.snb p {
+	display: inline-block;
+}
+.snb {
+	width: 65%;
+	max-width: 620px;
+	margin: 20px auto 0;
+}
+.snb-left {
+	float: left;
+	border: none;
+	padding: 4px;
+	border-radius: 5px;
+}
+.snb-right {
+	float: right;
+}
+.snb-right p {
+	margin-left: 20px;
+	color: white;
+	font-size: 14px;
+}

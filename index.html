@@ -5,7 +5,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="./fontawesome/css/all.min.css" />
-		<link rel="stylesheet" href="./main.css" />
+		<link rel="stylesheet" href="./css/main.css" />
 		<title>Starbucks</title>
 		<link
 			href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
@@ -28,25 +28,25 @@
 							<span>
 								<i class="fas fa-map-marker-alt"></i>
 							</span>
-							<strong><a href="#">Progue. CZ</a></strong>
+							<strong><a href="#">Heejin. J</a></strong>
 						</div>
 						<!--location end-->
 					</div>
 					<!--snb left end-->
 					<div class="snb-right right">
 						<div class="signIn">
-							<a class="btn" href="#">Sign In</a>
+							<a class="btn" href="./login.html">Sign In</a>
 						</div>
 						<div class="signUp">
-							<a class="btn bg-green" href="#">Sign Up</a>
+							<a class="btn bg-green" href="./signup.html"
+								>Sign Up</a
+							>
 						</div>
 						<div class="min-sign">
-							<a class="btn bg-green" href="#">Sign In</a>
+							<a class="btn bg-green" href="">Sign In</a>
 						</div>
 						<div class="min-gnb-btn">
-							<a href="" role="button"
-								><i class="fas fa-bars"></i
-							></a>
+							<i class="fas fa-bars"></i>
 						</div>
 					</div>
 					<!--snb right end-->
@@ -55,12 +55,15 @@
 			</div>
 			<!--snb end-->
 			<div class="all">
-				<div class="gnb-box">
+				<div class="gnb-box min-gnb-box">
 					<div class="gnb-btn">
 						<i class="fas fa-bars"></i>
 					</div>
-					<div class="gnb fs-4">
+					<div class="gnb min-gnb open fs-4">
 						<ul>
+							<li class="gnb-item close-btn">
+								<i class="fas fa-times"></i>
+							</li>
 							<li class="gnb-item">
 								My Starbucks<span
 									><i class="fas fa-chevron-down"></i
@@ -513,5 +516,9 @@
 		</div>
 
 		<!--wrap end-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="./js/script.js"></script>
 	</body>
 </html>

@@ -1,0 +1,73 @@
+@charset "utf-8";
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: #4d7562;
+	width: 100%;
+}
+.wrap {
+	background-color: white;
+	width: 60%;
+	max-width: 600px;
+	text-align: center;
+	border-radius: 8px;
+	padding: 20px;
+	margin: 10% auto 0;
+}
+.title {
+	font-size: 28px;
+}
+.welcome {
+	margin-top: 20px;
+}
+.form-bg {
+	width: max-content;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.form-input {
+	text-align: left;
+}
+input,
+button {
+	margin-top: 20px;
+}
+input {
+	padding: 8px;
+}
+button {
+	background-color: rgb(27, 99, 255);
+	color: white;
+	padding: 4px 8px;
+	border-radius: 3px;
+	border: 0;
+}
+label {
+	display: inline-block;
+	width: 80px;
+}
+.find {
+	margin-top: 20px;
+}
+.find p {
+	display: inline;
+	margin-right: 10px;
+}
+.find p a {
+	color: gray;
+	text-decoration: none;
+	font-size: 14px;
+}
+.find p a:hover {
+	text-decoration: underline;
+}
+.find p.find-pw::after {
+	content: "|";
+	padding-left: 20px;
+	color: #dbdbdb;
+}
+.find p.sign-up {
+	margin-left: 5px;
+}
