@@ -39,3 +39,35 @@ $(".min-gnb-btn").on("click", function () {
 		$(".min-gnb").attr("class", "gnb min-gnb open fs-4");
 	}
 });
+
+/* > 화살표 누르면 두번째 배너 보여주기 */
+$(".next").on("click", function () {
+	$(".slide-img>img").attr("src", "./imgs/banner2.png");
+	/* $(".slide-img").css({ bottom: "-520px", right: "-390px" }); */
+	$(".slide-txt>h1").html("S P R I N G &nbsp; D R I N K S");
+	$(".slide-txt>h2").html("BRING <span>NEW</span> SPRING");
+	$(".slide-txt>h2>span").css("color", "#DC7796");
+	$(".more>a").css({ backgroundColor: "#DC7796" });
+
+	var windowWidth = $(window).width();
+
+	if (windowWidth >= 1400) {
+		$(".slide-img").css({ bottom: "-520px", right: "-390px" });
+	} else if (windowWidth < 1400) {
+		$(".slide-img").css({ bottom: "-200px", right: "-120px" });
+	}
+});
+
+$(window).resize(function () {
+	location.reload();
+});
+
+/* < 화살표 누르면 첫번째 배너 보여주기 */
+$(".prev").on("click", function () {
+	$(".slide-img>img").attr("src", "./imgs/banner.png");
+	$(".slide-txt>h1").html("S U M M E R &nbsp; D R I N K S");
+	$(".slide-txt>h2").html(
+		"Meet our new<br /><span>Summer</span>Coffeedrinks"
+	);
+	$(".more>a").css({ backgroundColor: "#50876d" });
+});
