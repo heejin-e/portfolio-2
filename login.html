@@ -6,7 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>Starbucks Login</title>
-	<link rel="stylesheet" href="./login.css">
+	<link rel="stylesheet" href="./css/login.css">
 </head>
 
 <body>
@@ -22,10 +22,9 @@
 			<div class="form-bg">
 				<div class="form-input">
 					<label for="user-id">아이디</label>
-					<input type="text" id="user-id" pattern="^([a-z0-9_]){6,50}$" /><br>
+					<input type="text" id="user-id"/><br>
 					<label for="user-pw">비밀번호</label>
-					<input type="password" id="user-pw"
-						pattern="^(?=.*[A-Za-z])(?=.*\d)(?=.*[$@$!%*#?&])[A-Za-z\d$@$!%*#?&]{8,16}$" /><br>
+					<input type="password" id="user-pw"/><br>
 					<input type="checkbox" /> 아이디 저장<br>
 				</div>
 				<button type="submit">로그인</input>
@@ -34,7 +33,7 @@
 		<div class="find">
 			<p class="find-id"><a href="#">아이디 찾기</a></p>
 			<p class="find-pw"><a href="#">비밀번호 찾기</a></p>
-			<p class="sign-up"><a href="#">회원가입</p>
+			<p class="sign-up"><a href="./signup.html">회원가입</a></p>
 		</div>
 	</div>
 </body>
